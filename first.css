@@ -1,0 +1,191 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width:100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#header1{
+    height: 13vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+
+}
+
+#logo{
+    height: 90%;
+    
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text{
+    display: flex;
+}
+
+.text:hover{
+    color: rgb(42, 133, 207);
+}
+#contact{
+    
+    font-weight: lighter;
+}
+
+.icons{
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icons:hover{
+    background-color: lightblue;
+}
+
+
+#try{
+    background-color:rgba(9, 88, 185, 0.817);
+    padding: 10px 20px;
+    color: whitesmoke;
+}
+
+#try:hover{
+    background-color:rgb(53, 53, 173);
+}
+
+#login{
+    display: flex;
+    padding: 10px;
+    border-radius: 50px;
+    
+}
+
+#login:hover{
+    background-color: lightblue;
+}
+
+#header2{
+    height: 13vh;
+    width: 100%;
+}
+
+#page1{
+    height: 87%;
+    width: 100%;
+}
+
+#strip{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(15, 15, 129);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#strip u{
+    font-weight:normal ;
+    margin-left: 20px;
+}
+
+#heading{
+    height: 16%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+#heading h1{
+    font-weight: 800;
+}
+#content{
+    width: 100%;
+    height: 76%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#box1{
+    height: 90%;
+    width: 48%;
+    background-color: white;
+    
+}
+
+#box1 h1{
+    font-weight: 600;
+    font-size: 50px;
+    margin: 30px 10px;
+}
+
+#box1 p{
+    font-size: x-large;
+    margin: 30px 10px;
+    font-weight: lighter;
+}
+
+#box2{
+    height: 90%;
+    width: 48%;
+    background-color: whitesmoke;
+    
+}
+
+#box2 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#buttons{
+    display: flex;
+}
+
+#btn1{
+    text-align: center;
+    margin: 10px;
+    width: 30%;
+    padding: 10px 20px;
+    border: 2px solid darkblue;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+#btn1:hover{
+    background-color: darkblue;
+}
+
+#btn2:hover{
+    background-color: red;
+}
+
+#btn2{
+    text-align: center;
+    margin: 10px;
+    width: 30%;
+    padding: 10px 20px;
+    border: 5px solid red;
+    border-radius: 10px;
+}
